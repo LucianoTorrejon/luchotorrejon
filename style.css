@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*estadio.html*/
+#bodyestadios{
+    background-image: url(./images/fondoestadios.jpg);
+}
+footer{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    padding: 3px 10px;
+    border: #aadde3 9px solid;
+    border-radius: 20px;
+    background-color: beige;
+}
+footer a{
+    text-decoration: none;
+    font-size: 27px;
+    color: black;
+}
+#bodyestadios div article p{
+    text-align: center;
+    font-size: 18px;
+    padding: 5px;
+    background-color: rgb(104, 204, 219);
+    margin-bottom: 50px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px 40px 40px 10px;
+}
+#bodyestadios div article h3{
+    text-align: center;
+    margin: 70px;
+    font-size: 60px;
+    background-color: beige
+}
+.fotoestadio{
+    display: flex;
+    justify-content: center;
+}
+#bodyestadios div{
+    margin-left: 10px;
+}
+#bodyestadios header h1{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+}
+@media screen and (max-width: 480px){
+    .fotoestadio{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
+/*index.html*/
+section p{
+    text-align: center;
+    font-size: 30px;
+}
+.galeria{
+    margin: 50px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    flex-wrap: wrap;
+}
+.grid-item{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    transition: transform 0.3s ease-in-out;
+    border: solid 1px white;
+    margin: 10px;
+}
+.ajustimg{
+    width: 245px;
+    height: 143px;
+}
+.grid-item:hover{
+    filter: opacity(0.9);
+    transform: scale(1.04);
+}
+#partidos article div img{
+    width: 55%;
+}
+#selecciones article div img{
+    width: 60%;
+}
+.footerindex{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    padding: 3px 10px;
+    border: #aadde3 9px solid;
+    border-radius: 20px;
+    background-color: beige;
+}
+#partidos article div img{
+    margin: 50px;
+}
+#partidos article h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    background-color: rgb(0, 95, 95);
+    color: white;
+}
+#partidos article p{
+    text-align: center;
+    font-size: 18px;
+    width: 680px;
+
+    background-color: rgb(106, 71, 109);
+    margin-bottom: 50px;
+    color: antiquewhite;
+    border-radius: 10px 40px 40px 10px;
+}
+#selecciones article p{
+    width: 600px;
+    text-align: center;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 40px 10px;
+    background: rgb(122, 118, 93);
+}
+#selecciones article h2{
+    text-align: center;
+    margin-bottom: 50px;
+    text-decoration: none;
+    background-color: rgb(0, 95, 95);
+    color: white;
+}
+#headindex p{
+    background-color: azure;
+    margin: 50px;
+    color: black;
+    border-radius: 30px;
+    padding: 6px;
+    text-align: center;
+
+}
+#bodyindex{
+    background-color: rgb(172, 150, 122);
+}
+#headindex{background-image: url(https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt47319d1e75659cac/615f691353b9be336e3e8832/e01689e5430f659d403da9ff41b4ab60d6ee455a.jpg);
+    height: 800px;
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+#inicio{
+    color: white;
+    background-color: rgb(0, 95, 95);
+}
+/*top5.html*/
+body article img{
+    width: 70%;
+}
+.centrar{
+    display: flex;
+    justify-content: center;
+}
+#titulotop5{
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+}
+.centrartxt{
+    text-align: center;
+}
+.arg{
+    color: aquamarine;
+}
+.bra{
+    color: rgb(255, 251, 9);
+}
+.bel{
+    color: rgb(148, 0, 0);
+}
+#bodytop5{
+    background-image: url(https://images7.alphacoders.com/932/932701.jpg);
+    background-attachment: fixed;
+}
+#lio{
+    background-image: url(https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt58950bb17658bfdd/60dc9f13993b04384646b3d3/e153d63cbafa1bec93659d0a419d5a4e2f5ae5a4.jpg?format=jpg);
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+#kevin{
+    background-image: url(https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt4a371892be8ee250/60da7568892a730f587fddfa/6b137e8a2b057779989e7e72d9d7429ef0c1877e.jpg);
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+#neymar{
+    background-image: url(https://hoypyspace.sfo2.cdn.digitaloceanspaces.com/imagenes/FUQB73UXwAAs0iF.jpg);
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+#subtop5{
+    font-size: 50px;
+    text-decoration: solid;
+    margin: 50px;
+    color: white;
+}
+header nav ul li a{
+    color: rgb(255, 255, 255);
+    position:fixed;
+    margin: 20px;
+    text-decoration: none;
+}
+#headtop5{
+    background-image: url(https://images6.alphacoders.com/550/550393.jpg);
+    height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+body header{
+    overflow: hidden;
+}
+.nombselec{
+    font-size: 50px;
+    text-align: center;
+    margin: 30px;
+    text-decoration: underline;
+}
+@media screen and (max-width: 480px){
+    .grid-container{
+        grid-template-columns: 1fr;
+        margin:5px;
+   }
+   #bodyindex{
+    background-color: azure;
+   }
+   header nav ul li a{
+    color: rgb(77, 77, 77);
+   }
+}
+
